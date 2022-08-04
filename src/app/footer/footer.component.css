@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+*{
+    --red:#ff5a3c;
+    --light-red:#f9edeb;
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+
+section{
+    padding:2rem 9%;
+}
+
+
+
+
+
+
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background:#fff;
+    padding:1.5rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.footer .footer-container{
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem;
+}
+
+.footer .footer-container .box-container{
+    display: flex;
+    gap:1.5rem;
+}
+
+.footer .footer-container .box-container .box{
+    flex:1 1 25rem;
+}
+
+.footer .footer-container .box-container .box h3{
+    font-size: 1.5rem;
+    color:#333;
+    padding:.5rem 0;
+}
+
+.footer .footer-container .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    color:#666;
+    padding:.5rem 0;
+}
+
+.footer .footer-container .box-container .box a:hover{
+    color:var(--red);
+    text-decoration: underline;
+}
+
+.footer .footer-container .credit{
+    margin-top: 2rem;
+    padding:.5rem;
+    padding-top: 2.5rem;
+    font-size: 1rem;
+    text-align: center;
+    color:#333;
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
+
+.footer .footer-container .credit span{
+    color:var(--red);
+}
+
+.footer .footer-container {
+    margin-bottom: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size:55%;
+    }
+
+    header{
+        padding:1.5rem 1rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+
+}
+
